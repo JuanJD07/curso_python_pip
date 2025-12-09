@@ -16,3 +16,10 @@ env\Scripts\Activate
 pip install -r requirements.txt
 Python main.py
 ```
+
+# Maquina_de_cafe Project
+
+```sh
+cd maquina_de_cafe
+Python main.py
+```
