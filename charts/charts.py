@@ -10,7 +10,7 @@ def generate_pie_chart():
     ]  # Valores numéricos que determinan el tamaño de cada porción
 
     fig, ax = (
-        plt.subplots()
+        plt.subplot()
     )  # Creamos una figura y un eje donde se dibujará el gráfico circular
     ax.pie(
         values, labels=labels
